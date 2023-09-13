@@ -6,8 +6,7 @@ const MockAdapter = require('@bot-whatsapp/database/mock')
 
  // Crear el flujo principal
  const flowPrincipal = addKeyword(EVENTS.WELCOME)
- .addAnswer(['Hola Soy Sam tu coach virtual de La Mecca Fitness!! En que puedo ayudarte?'])
- .addAnswer('', {
+ .addAnswer('Hola Soy Sam tu coach virtual de La Mecca Fitness!! En que puedo ayudarte?', {
       buttons: [{ body: 'Servicios' }, { body: 'Clases y Aranceles.' }, { body: 'Quiero Mi Rutina' }],
     })
 
