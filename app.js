@@ -1,14 +1,13 @@
 const { createBot, createProvider, createFlow, addKeyword, EVENTS } = require('@bot-whatsapp/bot')
 
 const QRPortalWeb = require('@bot-whatsapp/portal')
-const BaileysProvider = require('@bot-whatsapp/provider/meta')
+const BaileysProvider = require('@bot-whatsapp/provider/baileys')
 const MockAdapter = require('@bot-whatsapp/database/mock')
 
  // Crear el flujo principal
  const flowPrincipal = addKeyword(EVENTS.WELCOME)
- .addAnswer('Hola Soy Sam tu coach virtual de La Mecca Fitness!! En que puedo ayudarte?', {
-      buttons: [{ body: 'Servicios' }, { body: 'Clases y Aranceles.' }, { body: 'Quiero Mi Rutina' }],
-    })
+ .addAnswer(['Hola Soy Sam tu coach virtual de La Mecca Fitness!! En que puedo ayudarte?'])
+ .addAnswer(['Servicios', 'Clases y Aranceles', 'Quiero Mi Rutina'])
 
 // Opcion 1
 const flowOpcion1 = addKeyword('servicios', 'clases', 'aranceles', { sensitive: false })
