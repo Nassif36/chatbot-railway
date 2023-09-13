@@ -7,10 +7,12 @@ const MockAdapter = require('@bot-whatsapp/database/mock')
  // Crear el flujo principal
  const flowPrincipal = addKeyword(EVENTS.WELCOME)
  .addAnswer(['Hola Soy Sam tu coach virtual de La Mecca Fitness!! En que puedo ayudarte?'])
- .addAnswer(['Servicios , Clases y Aranceles.', 'Quiero Mi Rutina']);
+ .addAnswer('', {
+      buttons: [{ body: 'Servicios' }, { body: 'Clases y Aranceles.' }, { body: 'Quiero Mi Rutina' }],
+    })
 
 // Opcion 1
-const flowOpcion1 = addKeyword('servicios', 'clases', 'aranceles')
+const flowOpcion1 = addKeyword('servicios', 'clases', 'aranceles', { sensitive: false })
  .addAnswer([
    'Meccas Coffe',
    'Mecca Fitness Shop',
@@ -19,7 +21,7 @@ const flowOpcion1 = addKeyword('servicios', 'clases', 'aranceles')
  ]);
 
 // Opcion 2
-const flowOpcion2 = addKeyword('quiero', 'rutina', 'ejercitar')
+const flowOpcion2 = addKeyword('quiero', 'rutina', 'ejercitar', { sensitive: false })
  .addAnswer(['Que grupo muscular quisieras entrenar?'])
  .addAnswer(['Hombros', 'Pecho', 'Brazos', 'Espalda', 'Cuadriceps', 'Femorales y Gluteos']);
 
