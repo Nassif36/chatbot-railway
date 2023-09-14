@@ -5,7 +5,7 @@ const BaileysProvider = require('@bot-whatsapp/provider/baileys')
 const MockAdapter = require('@bot-whatsapp/database/mock')
 
  // Crear el flujo principal
- const flowPrincipal = addKeyword(EVENTS.WELCOME, { executeOnce: true })
+ const flowPrincipal = addKeyword(EVENTS.WELCOME)
  .addAnswer(['Hola Soy Sam tu coach virtual de La Mecca Fitness!! En que puedo ayudarte?'])
  .addAnswer(['Servicios', 'Clases y Aranceles', 'Quiero Mi Rutina'])
 
@@ -34,14 +34,6 @@ const main = async () => {
   const adapterDB = new MockAdapter();
   const adapterProvider = createProvider(BaileysProvider);
   const adapterFlow = createFlow([flowPrincipal, flowOpcion1, flowOpcion2, flowHombreMujer])
-
-  const welcomeEventExecuted = await adapterDB.get('welcomeEventExecuted');
-
-  if (!welcomeEventExecuted) {
-    // Si no se ha ejecutado, ejecutamos el flujo y actualizamos la variable de estado
-    adapterFlow.execute(EVENTS.WELCOME);
-    await adapterDB.set('welcomeEventExecuted', true);
-  }
 
   createBot({
     flow: adapterFlow,
