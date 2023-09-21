@@ -5,13 +5,13 @@ const BaileysProvider = require('@bot-whatsapp/provider/baileys')
 const MockAdapter = require('@bot-whatsapp/database/mock')
 
 const opcion43Masc = addKeyword('3')
-  .addAnswer(['https://drive.google.com/file/d/1qojm2nLtbJPtshR2exkGsQddXnwwJoU-/view?usp=drive_link'])
+  .addAnswer(['Tren superior: https://drive.google.com/file/d/1qojm2nLtbJPtshR2exkGsQddXnwwJoU-/view?usp=drive_link'])
   
 const opcion42Masc = addKeyword('2')
-  .addAnswer(['https://drive.google.com/file/d/1ttUWSKcgvgLUF4JRZfnOjuf_ZKQqTkdP/view?usp=drive_link'])
+  .addAnswer(['Tren inferior: https://drive.google.com/file/d/1ttUWSKcgvgLUF4JRZfnOjuf_ZKQqTkdP/view?usp=drive_link'])
 
 const opcion41Masc = addKeyword('1')
-  .addAnswer(['https://drive.google.com/file/d/1YVd7GsTSR3E-gKMpYfvSiqZ119c5Z_kk/view?usp=drive_link'])
+  .addAnswer(['Quemar grasa: https://drive.google.com/file/d/1YVd7GsTSR3E-gKMpYfvSiqZ119c5Z_kk/view?usp=drive_link'])
 
 const opcion4Masc = addKeyword('4')
   .addAnswer(['💪🏽 Okey, no problem ❗ Si tenés poco tiempo tenemos la solucion para vos, tenemos las mejores rutinas y combinaciones para que puedas explotar en pocos minutos 💪🏽❗ Qué vas a entrenar hoy? ',
@@ -25,13 +25,13 @@ const opcion4Masc = addKeyword('4')
   )
 
 const opcion43Fem = addKeyword('3')
-  .addAnswer(['https://drive.google.com/file/d/14dZNw4TkiJ75hMtWPfSVOQtZzyLejSYZ/view?usp=drive_link'])
+  .addAnswer(['Tren superior: https://drive.google.com/file/d/14dZNw4TkiJ75hMtWPfSVOQtZzyLejSYZ/view?usp=drive_link'])
   
 const opcion42Fem = addKeyword('2')
-  .addAnswer(['https://drive.google.com/file/d/154JGd5K3E1qLZ4JlYkcIOHBXmmd8lZJ_/view?usp=drive_link'])
+  .addAnswer(['Tren inferior: https://drive.google.com/file/d/154JGd5K3E1qLZ4JlYkcIOHBXmmd8lZJ_/view?usp=drive_link'])
 
 const opcion41Fem = addKeyword('1')
-  .addAnswer(['https://drive.google.com/file/d/1yzDEZE4VHgY6YUofZn3aSUnTBu3dTVbz/view?usp=drive_link'])
+  .addAnswer(['Quemar grasa: https://drive.google.com/file/d/1yzDEZE4VHgY6YUofZn3aSUnTBu3dTVbz/view?usp=drive_link'])
 
 const opcion4Fem = addKeyword('4')
   .addAnswer(['💪🏽 Okey, no problem ❗ Si tenés poco tiempo tenemos la solucion para vos, tenemos las mejores rutinas y combinaciones para que puedas explotar en pocos minutos 💪🏽❗ Qué vas a entrenar hoy? ',
@@ -196,7 +196,6 @@ const flowOpcion2 = addKeyword(['2'])
 const flowOpcion1 = addKeyword(['1'])
 .addAnswer(['✅ *Servicios*','☕ *Mecca`s Coffe* ','🛒 *Mecca Fitness Shop*'])
 .addAnswer('👨🏽‍💻 💳 *Medios de pago*', {media: 'https://firebasestorage.googleapis.com/v0/b/mecacdn-8b7d3.appspot.com/o/meca-precios.PNG?alt=media&token=3e7901f7-e915-4e8b-a88f-b4506da93485'})
-
 
   const flowPrincipal = addKeyword(EVENTS.WELCOME)
   .addAnswer([' Buenas ❗ En qué puedo ayudarte?'] )
