@@ -44,6 +44,20 @@ const opcion4Fem = addKeyword('4')
   [opcion41Fem, opcion42Fem, opcion43Fem]
   )
 
+const opcion31Masc = addKeyword('1')
+  .addAnswer(['Gluteos: https://drive.google.com/file/d/1d-atPpJhtU93BcLqcPf5Fp8FY27096B6/view?usp=drive_link'])
+const opcion32Masc = addKeyword('2')
+  .addAnswer(['Brazos: https://drive.google.com/file/d/1QVIMZH78oG1XaNDRpJCvmP21oZssUleE/view?usp=drive_link'])
+const opcion33Masc = addKeyword('3')
+  .addAnswer(['Hombros: https://drive.google.com/file/d/13IAmotYsM-9T_jk5GeAKa1dodXqkrAk4/view?usp=drive_link'])
+const opcion34Masc = addKeyword('4')
+  .addAnswer(['Pecho: https://drive.google.com/file/d/1daUgmQ4zGlwcCdnfBhDYLliSitzoaw75/view?usp=drive_link'])
+const opcion35Masc = addKeyword('5')
+  .addAnswer(['Espalda: https://drive.google.com/file/d/1enWGLnB-GY_eW_Vw2-a54ot2DPIOKbPr/view?usp=drive_link'])
+const opcion36Masc = addKeyword('6')
+  .addAnswer(['Femorales y glúteos: https://drive.google.com/file/d/1i20KFWebo95sAeKl8fBZ21UW7HOWplC_/view?usp=drive_link'])
+const opcion37Masc = addKeyword('7')
+  .addAnswer(['Cuadriceps y glúteos: https://drive.google.com/file/d/1h7lXJtcHDaP90EAB7v7g3LSMErwJYqEp/view?usp=drive_link'])
 
 const opcion3Masc = addKeyword('3')
   .addAnswer(['💪🏽 Okey let`s go ❗ Qué grupo muscular quisieras entrenar hoy?',
@@ -54,20 +68,38 @@ const opcion3Masc = addKeyword('3')
   '5️⃣ Espalda',
   '6️⃣ Femorales y glúteos',
   '7️⃣ Cuádriceps y glúteos'
-  ])
-  .addAnswer('masculino')
+  ],
+  null,
+  null,
+  [opcion31Masc, opcion32Masc, opcion33Masc,opcion34Masc,opcion35Masc,opcion36Masc,opcion37Masc]
+  )
+
+const opcion31Fem = addKeyword('1')
+  .addAnswer(['Gluteos:'])
+const opcion32Fem = addKeyword('2')
+  .addAnswer(['Brazos: https://drive.google.com/file/d/1JWcsfkewwATvecEfRfQ1pCMJuYhdgx1e/view?usp=drive_link'])
+const opcion33Fem = addKeyword('3')
+  .addAnswer(['Hombros:'])
+const opcion34Fem = addKeyword('4')
+  .addAnswer(['Espalda: https://drive.google.com/file/d/14Ny1hOdFpdDobzQc5Xiuw810yPgQx0vl/view?usp=drive_link'])
+const opcion35Fem = addKeyword('5')
+  .addAnswer(['Femorales y glúteos: https://drive.google.com/file/d/1ZM0Zhnt4293wstbdNGFYnD0UomhALLws/view?usp=drive_link'])
+const opcion36Fem = addKeyword('6')
+  .addAnswer(['Cuádriceps y glúteos: https://drive.google.com/file/d/1BKD_qtkPya8vG8erK5arz3km5lmAQdBV/view?usp=drive_link'])
 
 const opcion3Fem = addKeyword('3')
   .addAnswer(['💪🏽 Okey let`s go ❗ Qué grupo muscular quisieras entrenar hoy?',
   '1️⃣ Gluteos ',
   '2️⃣ Brazos ',
   '3️⃣ Hombros',
-  '5️⃣ Espalda',
-  '6️⃣ Femorales y glúteos',
-  '7️⃣ Cuádriceps y glúteos'
-  ])
-  .addAnswer('femenina')
-
+  '4️⃣ Espalda',
+  '5️⃣ Femorales y glúteos',
+  '6️⃣ Cuádriceps y glúteos'
+  ],
+   null,
+   null,
+   [opcion31Fem, opcion32Fem, opcion33Fem, opcion34Fem, opcion35Fem, opcion36Fem]
+  )
 
 const opcion23Masc = addKeyword('3')
   .addAnswer(['💪🏽 Tina te recomienda la siguiente rutina. Además contás con una rutina de HIIT workout para perder peso en caso que te aburra hacer cinta o bici. Recordá que todas las rutinas incluyen videos y tenés el apoyo de los profesores de turno para ayudarte en cualquier duda!', 'https://drive.google.com/drive/folders/101dN9BXqoZDiR85rsrHhE933qFFROWXP?usp=drive_link'])
