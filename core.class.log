@@ -1,77 +1,31 @@
 [handleMsg]:  {
   key: {
-    remoteJid: '5491169109443@s.whatsapp.net',
+    remoteJid: '5491138840555@s.whatsapp.net',
     fromMe: false,
-    id: 'E821B4EF05257D7D0123AB395C14A97F',
+    id: '3EB09967F78F0B8F9AECF3',
     participant: undefined
   },
-  messageTimestamp: 1694871989,
-  pushName: 'Ramiro',
+  messageTimestamp: 1695336364,
+  pushName: 'yo',
   broadcast: false,
   message: Message {
-    audioMessage: AudioMessage {
-      url: 'https://mmg.whatsapp.net/v/t62.7117-24/20112010_695917325238506_1601861766835139154_n.enc?ccb=11-4&oh=01_AdSg5MZOIRXrfjgGfym9l6kY5qetRGythrQdIMoPsEYw_g&oe=652D2D93&_nc_sid=000000&mms3=true',
-      mimetype: 'audio/ogg; codecs=opus',
-      fileSha256: [Uint8Array],
-      fileLength: [Long],
-      seconds: 10,
-      ptt: true,
-      mediaKey: [Uint8Array],
-      fileEncSha256: [Uint8Array],
-      directPath: '/v/t62.7117-24/20112010_695917325238506_1601861766835139154_n.enc?ccb=11-4&oh=01_AdSg5MZOIRXrfjgGfym9l6kY5qetRGythrQdIMoPsEYw_g&oe=652D2D93&_nc_sid=000000',
-      mediaKeyTimestamp: [Long],
-      waveform: [Uint8Array]
+    extendedTextMessage: ExtendedTextMessage {
+      text: 'x',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
     },
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: '_event_voice_note__a3ae8fa6-0153-4449-9b31-d24715b6f918',
-  from: '5491169109443'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491138840555@s.whatsapp.net',
-    fromMe: false,
-    id: '485E72430F4AAD734BFE5657CA998B17',
-    participant: undefined
-  },
-  messageTimestamp: 1694872018,
-  pushName: 'yo',
-  broadcast: false,
-  message: Message {
-    conversation: 'Hola',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Hola',
+  body: 'x',
   from: '5491138840555'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_aec1ecee-36b4-44b3-a918-e20fe70e232d',
-  keyword: 'key_82cbdfcb-1599-44c6-ac02-88ed5db80a8f',
-  answer: 'Hola Soy *Tina* tu coach virtual de La Mecca Fitness!! En que puedo ayudarte?',
-  options: {
-    media: 'https://drive.google.com/file/d/1iGhvxFThY2eM0R2rLsAE3TQR9WdKZfjN/view',
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '17e9c768271efd8c3269d569adc644be'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_a102d2ef-a3c3-4fe6-95bb-919bdef2decd',
-  keyword: 'ans_aec1ecee-36b4-44b3-a918-e20fe70e232d',
-  answer: 'ℹ️ *Servicios*\n' +
-    '🏋️‍♂️ *Clases*, 🕛 *Horarios* y 💲 *Aranceles*\n' +
-    '💪 *Quiero Mi Rutina*',
+  ref: 'ans_aa7fb3c3-bea9-4ed9-bd82-7d1ea2cdba41',
+  keyword: 'key_ec884514-d081-419b-a0aa-cf7f90be9010',
+  answer: ' Buenas ❗ En qué puedo ayudarte?',
   options: {
     media: null,
     buttons: [],
@@ -82,32 +36,102 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '88a24d0d5bd6bee44f8254e7c94962b8'
+  refSerialize: 'dd18ea721af51c930eff7cf9fe5a8d76'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_42135e38-211f-4d89-8ff8-5a27cbefa593',
+  keyword: 'ans_aa7fb3c3-bea9-4ed9-bd82-7d1ea2cdba41',
+  answer: '1️⃣ Necesito info de los *aranceles*, *servicios* y *medios de pago* 👨🏽‍💻 💳\n' +
+    '2️⃣ Horario de las *clases* 🕜 🏋🏽\n' +
+    '3️⃣ Ya me inscribí, Quiero mi *rutina* 💪🏽',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'e04a0899645184d5d57ad55cde6fbd49'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '5491138840555@s.whatsapp.net',
     fromMe: false,
-    id: '66F58CFF9032983C4FE7D045489E2076',
+    id: '3EB0A321751758E6B4DD7F',
     participant: undefined
   },
-  messageTimestamp: 1694872028,
+  messageTimestamp: 1695336367,
   pushName: 'yo',
   broadcast: false,
   message: Message {
-    conversation: 'clases',
+    extendedTextMessage: ExtendedTextMessage {
+      text: '3',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'clases',
+  body: '3',
   from: '5491138840555'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_02154ac1-7017-4663-8cc8-46b1a972257f',
-  keyword: 'key_7c410fb7-a178-4010-9f12-75476b60dd81',
-  answer: '♨️ *Clases*\n - - - -\n - - - -\n - - - -\n - - - -',
+  ref: 'ans_f261bee4-b751-4416-82a9-0fbebee11144',
+  keyword: 'key_c53ad74a-2ef2-49d7-b6b0-62bd3181fe5f',
+  answer: '💪🏽 Buenísimo! Recordá que todas las rutinas incluyen videos y tenés el apoyo de los profesores de turno para ayudarte en cualquier duda! \n' +
+    '*Qué sexo sos?*\n' +
+    '1️⃣ 🏋️‍♀️ Femenino\n' +
+    '2️⃣ 🏋🏽 Masculino',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    nested: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '914190c743d81f3238c3b717e9ea4f2b'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491138840555@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB03D5E8003C15CFD4765',
+    participant: undefined
+  },
+  messageTimestamp: 1695336371,
+  pushName: 'yo',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '2',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '2',
+  from: '5491138840555'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_eded6094-7c6e-48c9-a937-1199e2c6dfc4',
+  keyword: 'key_72606344-4a00-49af-9899-35c3852b3c82',
+  answer: '💪🏽 Buenísimo ❗ contame un poco de vos, en qué nivel de acondicionamiento físico crees que estás? 🏋🏽',
   options: {
     media: null,
     buttons: [],
@@ -118,90 +142,104 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '8c34d8fd344d5653c010df86cad50745'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491138840555@s.whatsapp.net',
-    fromMe: false,
-    id: '7E222CDA1B597F4BEA5BC2107AAA1329',
-    participant: undefined
-  },
-  messageTimestamp: 1694872069,
-  pushName: 'yo',
-  broadcast: false,
-  message: Message {
-    conversation: 'xd',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'xd',
-  from: '5491138840555'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491138840555@s.whatsapp.net',
-    fromMe: false,
-    id: 'DFF0FE936F2532E21A5895273528B65B',
-    participant: undefined
-  },
-  messageTimestamp: 1694872071,
-  pushName: 'yo',
-  broadcast: false,
-  message: Message {
-    conversation: 'horario',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'horario',
-  from: '5491138840555'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491138840555@s.whatsapp.net',
-    fromMe: false,
-    id: '8F6479AB150496D4525B8075C31476D0',
-    participant: undefined
-  },
-  messageTimestamp: 1694872079,
-  pushName: 'yo',
-  broadcast: false,
-  message: Message {
-    conversation: 'Hola',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Hola',
-  from: '5491138840555'
+  refSerialize: '7b94c1c7d2c8810e49dca441ed4e0dec'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_aec1ecee-36b4-44b3-a918-e20fe70e232d',
-  keyword: 'key_82cbdfcb-1599-44c6-ac02-88ed5db80a8f',
-  answer: 'Hola Soy *Tina* tu coach virtual de La Mecca Fitness!! En que puedo ayudarte?',
+  ref: 'ans_595d8f0b-adba-4fb7-8f9d-a6a2dcaa3dff',
+  keyword: 'ans_eded6094-7c6e-48c9-a937-1199e2c6dfc4',
+  answer: '1️⃣ Soy iniciante, me gustaría una rutina para aprender y adaptar mi cuerpo 🏋🏽\n' +
+    '2️⃣ Ya vengo entrenando hace rato, me gustaría una rutina para seguir creciendo 💪🏽 🔝\n' +
+    '3️⃣ Hoy quiero entrenar un grupo muscular específico  💪🏽 🍑 🦵🏼\n' +
+    '4️⃣ Hoy tengo poco tiempo, qué me sugerís Tina? 🤔',
   options: {
-    media: 'https://drive.google.com/file/d/1iGhvxFThY2eM0R2rLsAE3TQR9WdKZfjN/view',
+    media: null,
     buttons: [],
     capture: false,
     child: null,
     delay: 0,
-    nested: [],
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
     keyword: {},
     callback: false
   },
-  refSerialize: '17e9c768271efd8c3269d569adc644be'
+  refSerialize: '289e2b8d07a3304c0e84c24383f14b87'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491138840555@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB022363D4D6F52860220',
+    participant: undefined
+  },
+  messageTimestamp: 1695336385,
+  pushName: 'yo',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '4',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '4',
+  from: '5491138840555'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_a102d2ef-a3c3-4fe6-95bb-919bdef2decd',
-  keyword: 'ans_aec1ecee-36b4-44b3-a918-e20fe70e232d',
-  answer: 'ℹ️ *Servicios*\n' +
-    '🏋️‍♂️ *Clases*, 🕛 *Horarios* y 💲 *Aranceles*\n' +
-    '💪 *Quiero Mi Rutina*',
+  ref: 'ans_21eaa126-a4f2-46ee-87dd-65a1bffaf277',
+  keyword: 'key_9622c4bd-a892-42d9-a9a4-a999ccf5fc28',
+  answer: '💪🏽 Okey, no problem ❗ Si tenés poco tiempo tenemos la solucion para vos, tenemos las mejores rutinas y combinaciones para que puedas explotar en pocos minutos 💪🏽❗ Qué vas a entrenar hoy? \n' +
+    '1️⃣ Tren superior 💪🏽\n' +
+    '2️⃣ Tren inferior 🍑 🦵🏼\n' +
+    '3️⃣ Quiero algo para quemar grasa 🏃🏽',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    nested: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '5601159caf399b02e80c211bc8ff10f3'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491138840555@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB03416CF4731144ECCF5',
+    participant: undefined
+  },
+  messageTimestamp: 1695336389,
+  pushName: 'yo',
+  broadcast: false,
+  message: Message {
+    extendedTextMessage: ExtendedTextMessage {
+      text: '2',
+      contextInfo: [ContextInfo],
+      inviteLinkGroupTypeV2: 0
+    },
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '2',
+  from: '5491138840555'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_06e0dc21-2aa0-437d-b326-7e7e095ae2c9',
+  keyword: 'key_cce5dd27-4fc3-451a-9d20-06b561a3266c',
+  answer: 'https://drive.google.com/file/d/1ttUWSKcgvgLUF4JRZfnOjuf_ZKQqTkdP/view?usp=drive_link',
   options: {
     media: null,
     buttons: [],
@@ -212,458 +250,5 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '88a24d0d5bd6bee44f8254e7c94962b8'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491138840555@s.whatsapp.net',
-    fromMe: false,
-    id: 'C1B4F4F2BFE3CE15CB6CB93B868523BA',
-    participant: undefined
-  },
-  messageTimestamp: 1694872086,
-  pushName: 'yo',
-  broadcast: false,
-  message: Message {
-    conversation: 'Horarios',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Horarios',
-  from: '5491138840555'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_f0c7ddb3-3784-4542-95e4-5bccc34bc3a5',
-  keyword: 'key_a656b75c-cb49-4010-8ed1-6ed8a552343f',
-  answer: '🕛 *Horarios*\n - - - -\n - - - -\n - - - -\n - - - -',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: 'd3d141aa7a53192e5296aaeb0b8c0151'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491138840555@s.whatsapp.net',
-    fromMe: false,
-    id: '3138951832FAD79BF57C6C337BE25E90',
-    participant: undefined
-  },
-  messageTimestamp: 1694872149,
-  pushName: 'yo',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'ok xd, no sabia si tenia q descargarlo o no',
-      previewType: 0,
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'ok xd, no sabia si tenia q descargarlo o no',
-  from: '5491138840555'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491138840555@s.whatsapp.net',
-    fromMe: false,
-    id: '416FEAC52D0C381C4A81D03D304A95BD',
-    participant: undefined
-  },
-  messageTimestamp: 1694872301,
-  pushName: 'yo',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'Claro, si, esta mejor si no le responde a tantos mensajes, anda bien la verdad, bien que pueda ayudar Jaja, pero bien ahi, está bueno',
-      previewType: 0,
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Claro, si, esta mejor si no le responde a tantos mensajes, anda bien la verdad, bien que pueda ayudar Jaja, pero bien ahi, está bueno',
-  from: '5491138840555'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491138840555@s.whatsapp.net',
-    fromMe: false,
-    id: 'DA64C53B5613C77B45535F17290F7EB9',
-    participant: undefined
-  },
-  messageTimestamp: 1694872339,
-  pushName: 'yo',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'Ok, yo buzo tengo asi que no creo que necesite nada mas',
-      previewType: 0,
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Ok, yo buzo tengo asi que no creo que necesite nada mas',
-  from: '5491138840555'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491138840555@s.whatsapp.net',
-    fromMe: false,
-    id: 'C454CB554D471EA9E12FC465DA07571D',
-    participant: undefined
-  },
-  messageTimestamp: 1694872347,
-  pushName: 'yo',
-  broadcast: false,
-  message: Message {
-    conversation: 'gracias igual',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'gracias igual',
-  from: '5491138840555'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491138840555@s.whatsapp.net',
-    fromMe: false,
-    id: '983BDC10E9FEF1BE0CDC91503ACF32F6',
-    participant: undefined
-  },
-  messageTimestamp: 1694872357,
-  pushName: 'yo',
-  broadcast: false,
-  message: Message {
-    conversation: 'El concierto a que hora es?',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'El concierto a que hora es?',
-  from: '5491138840555'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_f0c7ddb3-3784-4542-95e4-5bccc34bc3a5',
-  keyword: 'key_a656b75c-cb49-4010-8ed1-6ed8a552343f',
-  answer: '🕛 *Horarios*\n - - - -\n - - - -\n - - - -\n - - - -',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: 'd3d141aa7a53192e5296aaeb0b8c0151'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491128730226@s.whatsapp.net',
-    fromMe: false,
-    id: '934E4CE0970B2CF046FF1E81C050EC81',
-    participant: undefined
-  },
-  messageTimestamp: 1694872377,
-  pushName: 'MAR',
-  broadcast: false,
-  message: Message {
-    imageMessage: ImageMessage {
-      interactiveAnnotations: [],
-      scanLengths: [Array],
-      url: 'https://mmg.whatsapp.net/o1/v/t62.7118-24/f1/m234/up-oil-image-d8155f43-d299-4cb5-a710-ce8ff756fd16?ccb=9-4&oh=01_AdRPLDxyCxw1zAs0iMkJIy9IAe0qaAxixVVbF2k_Mipm0g&oe=652D3FFE&_nc_sid=000000&mms3=true',
-      mimetype: 'image/jpeg',
-      fileSha256: [Uint8Array],
-      fileLength: [Long],
-      height: 960,
-      width: 540,
-      mediaKey: [Uint8Array],
-      fileEncSha256: [Uint8Array],
-      directPath: '/o1/v/t62.7118-24/f1/m234/up-oil-image-d8155f43-d299-4cb5-a710-ce8ff756fd16?ccb=9-4&oh=01_AdRPLDxyCxw1zAs0iMkJIy9IAe0qaAxixVVbF2k_Mipm0g&oe=652D3FFE&_nc_sid=000000&_nc_hot=1694872375',
-      mediaKeyTimestamp: [Long],
-      jpegThumbnail: [Uint8Array],
-      scansSidecar: [Uint8Array],
-      midQualityFileSha256: [Uint8Array]
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '_event_media__b0f3926d-0241-4172-a7dc-e8ddc6916d3f',
-  from: '5491128730226'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491128730226@s.whatsapp.net',
-    fromMe: false,
-    id: '39C4C81784E6DC02C40DDB517C3A2ADA',
-    participant: undefined
-  },
-  messageTimestamp: 1694872381,
-  pushName: 'MAR',
-  broadcast: false,
-  message: Message {
-    conversation: 'Buen dia Khalu.',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Buen dia Khalu.',
-  from: '5491128730226'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491128730226@s.whatsapp.net',
-    fromMe: false,
-    id: '2482968731EBCF1B81527A75B30696F3',
-    participant: undefined
-  },
-  messageTimestamp: 1694872391,
-  pushName: 'MAR',
-  broadcast: false,
-  message: Message {
-    conversation: 'Es ese el lugar no?',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Es ese el lugar no?',
-  from: '5491128730226'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491138840555@s.whatsapp.net',
-    fromMe: false,
-    id: '221DCF4895771D83017BC8E7955E8AD5',
-    participant: undefined
-  },
-  messageTimestamp: 1694872396,
-  pushName: 'yo',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'xd',
-      previewType: 0,
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'xd',
-  from: '5491138840555'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491128730226@s.whatsapp.net',
-    fromMe: false,
-    id: 'DC6221EE6B44772248305F718AE15089',
-    participant: undefined
-  },
-  messageTimestamp: 1694872401,
-  pushName: 'MAR',
-  broadcast: false,
-  message: Message {
-    conversation: 'Ya le avise a Adrian.',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Ya le avise a Adrian.',
-  from: '5491128730226'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491128730226@s.whatsapp.net',
-    fromMe: false,
-    id: 'CEE204DE510644BBB40B0C20519D9890',
-    participant: undefined
-  },
-  messageTimestamp: 1694872417,
-  pushName: 'MAR',
-  broadcast: false,
-  message: Message {
-    conversation: 'Dice que empieza a las 20hs',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Dice que empieza a las 20hs',
-  from: '5491128730226'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491138840555@s.whatsapp.net',
-    fromMe: false,
-    id: '00715692CFD640F26F92D6C60763ED5E',
-    participant: undefined
-  },
-  messageTimestamp: 1694872424,
-  pushName: 'yo',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'Ok',
-      previewType: 0,
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Ok',
-  from: '5491138840555'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491128730226@s.whatsapp.net',
-    fromMe: false,
-    id: '0126E3F5C777184EED758488CC4F644B',
-    participant: undefined
-  },
-  messageTimestamp: 1694872428,
-  pushName: 'MAR',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: '🤷🏻‍♀️',
-      previewType: 0,
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '🤷🏻‍♀️',
-  from: '5491128730226'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491128730226@s.whatsapp.net',
-    fromMe: false,
-    id: '11E6FE15156108BA0290904459C32B26',
-    participant: undefined
-  },
-  messageTimestamp: 1694872442,
-  pushName: 'MAR',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'Si. Seguro',
-      previewType: 0,
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Si. Seguro',
-  from: '5491128730226'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491128730226@s.whatsapp.net',
-    fromMe: false,
-    id: '77F227601F51A634EA74145E322B9C50',
-    participant: undefined
-  },
-  messageTimestamp: 1694872447,
-  pushName: 'MAR',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'Ahh claro',
-      previewType: 0,
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Ahh claro',
-  from: '5491128730226'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491128730226@s.whatsapp.net',
-    fromMe: false,
-    id: 'E12902EEBFA0EF53E63AEF6A5DE3A544',
-    participant: undefined
-  },
-  messageTimestamp: 1694872453,
-  pushName: 'MAR',
-  broadcast: false,
-  message: Message {
-    conversation: 'Que lindo es el lugar!!',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Que lindo es el lugar!!',
-  from: '5491128730226'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491128730226@s.whatsapp.net',
-    fromMe: false,
-    id: '5C62E6E9D7378B590BB42301DFECF3A9',
-    participant: undefined
-  },
-  messageTimestamp: 1694872472,
-  pushName: 'MAR',
-  broadcast: false,
-  message: Message {
-    extendedTextMessage: ExtendedTextMessage {
-      text: 'Ehhh son vip!!!',
-      previewType: 0,
-      contextInfo: [ContextInfo],
-      inviteLinkGroupTypeV2: 0
-    },
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Ehhh son vip!!!',
-  from: '5491128730226'
+  refSerialize: '1f6d3e5cd11e54d731ac9db003d584d8'
 }
