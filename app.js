@@ -177,6 +177,19 @@ const trainingMasc = addKeyword('2')
   [opcion1Masc, opcion2Masc, opcion3Masc, opcion4Masc]
   )
 
+const apagarBot = addKeyword('4')
+.addAnswer('Aguarde un momento')
+.addAction(
+  async (ctx, { state, endFlow }) => {
+    state.update({ off: true });
+ 
+    setTimeout(() => {
+      state.update({ off: false });
+      return endFlow()
+    }, 600000);
+  }
+)
+
 const flowOpcion3 = addKeyword('3')
 .addAnswer([
   '💪🏽 Buenísimo! Recordá que todas las rutinas incluyen videos y tenés el apoyo de los profesores de turno para ayudarte en cualquier duda! ',
@@ -200,16 +213,21 @@ const flowOpcion1 = addKeyword(['1'])
 .addAnswer('👨🏽‍💻 💳 *Medios de pago*', {media: 'https://firebasestorage.googleapis.com/v0/b/mecacdn-8b7d3.appspot.com/o/meca-precios.PNG?alt=media&token=3e7901f7-e915-4e8b-a88f-b4506da93485'})
 
   const flowPrincipal = addKeyword(EVENTS.WELCOME)
+  .addAction(async (ctx, { state, endFlow }) => {
+    const botState = state.getMyState();
+    const botIsOff = botState?.off;
+    if (botIsOff) return endFlow();
+  })
   .addAnswer([' Buenas ❗ En qué puedo ayudarte?'] )
   .addAnswer([
   '1️⃣ Necesito info de los *aranceles*, *servicios* y *medios de pago* 👨🏽‍💻 💳', 
   '2️⃣ Horario de las *clases* 🕜 🏋🏽', 
   '3️⃣ Ya me inscribí, Quiero mi *rutina* 💪🏽',
-  '4️⃣ Hablar con alguien del staff'
+  '4️⃣ Hablar con un ser humano'
   ],
   null,
   null,
-  [flowOpcion1, flowOpcion2, flowOpcion3, apagarBot, encenderBot]
+  [flowOpcion1, flowOpcion2, flowOpcion3, apagarBot]
  );
 
 
