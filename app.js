@@ -4,13 +4,15 @@ const QRPortalWeb = require('@bot-whatsapp/portal')
 const BaileysProvider = require('@bot-whatsapp/provider/baileys')
 const MockAdapter = require('@bot-whatsapp/database/mock')
 
-const opcion43Masc = addKeyword('3')
+
+
+const opcion43Masc = addKeyword('1')
   .addAnswer(['Tren superior: https://drive.google.com/file/d/1qojm2nLtbJPtshR2exkGsQddXnwwJoU-/view?usp=drive_link'])
   
 const opcion42Masc = addKeyword('2')
   .addAnswer(['Tren inferior: https://drive.google.com/file/d/1ttUWSKcgvgLUF4JRZfnOjuf_ZKQqTkdP/view?usp=drive_link'])
 
-const opcion41Masc = addKeyword('1')
+const opcion41Masc = addKeyword('3')
   .addAnswer(['Quemar grasa: https://drive.google.com/file/d/1YVd7GsTSR3E-gKMpYfvSiqZ119c5Z_kk/view?usp=drive_link'])
 
 const opcion4Masc = addKeyword('4')
@@ -24,13 +26,13 @@ const opcion4Masc = addKeyword('4')
   [opcion41Masc, opcion42Masc, opcion43Masc]
   )
 
-const opcion43Fem = addKeyword('3')
+const opcion43Fem = addKeyword('1')
   .addAnswer(['Tren superior: https://drive.google.com/file/d/14dZNw4TkiJ75hMtWPfSVOQtZzyLejSYZ/view?usp=drive_link'])
   
 const opcion42Fem = addKeyword('2')
   .addAnswer(['Tren inferior: https://drive.google.com/file/d/154JGd5K3E1qLZ4JlYkcIOHBXmmd8lZJ_/view?usp=drive_link'])
 
-const opcion41Fem = addKeyword('1')
+const opcion41Fem = addKeyword('3')
   .addAnswer(['Quemar grasa: https://drive.google.com/file/d/1yzDEZE4VHgY6YUofZn3aSUnTBu3dTVbz/view?usp=drive_link'])
 
 const opcion4Fem = addKeyword('4')
@@ -75,11 +77,11 @@ const opcion3Masc = addKeyword('3')
   )
 
 const opcion31Fem = addKeyword('1')
-  .addAnswer(['Gluteos:'])
+  .addAnswer(['Gluteos: https://drive.google.com/file/d/12fXSR2OPPSfMa3y3Ye3F9cjxZY9Ydnjp/view?usp=drive_link'])
 const opcion32Fem = addKeyword('2')
   .addAnswer(['Brazos: https://drive.google.com/file/d/1JWcsfkewwATvecEfRfQ1pCMJuYhdgx1e/view?usp=drive_link'])
 const opcion33Fem = addKeyword('3')
-  .addAnswer(['Hombros:'])
+  .addAnswer(['Hombros: https://drive.google.com/file/d/1rFOax81t4IpMInZYrRCcqrZdAlAV7_EU/view?usp=drive_link'])
 const opcion34Fem = addKeyword('4')
   .addAnswer(['Espalda: https://drive.google.com/file/d/14Ny1hOdFpdDobzQc5Xiuw810yPgQx0vl/view?usp=drive_link'])
 const opcion35Fem = addKeyword('5')
@@ -202,11 +204,12 @@ const flowOpcion1 = addKeyword(['1'])
   .addAnswer([
   '1️⃣ Necesito info de los *aranceles*, *servicios* y *medios de pago* 👨🏽‍💻 💳', 
   '2️⃣ Horario de las *clases* 🕜 🏋🏽', 
-  '3️⃣ Ya me inscribí, Quiero mi *rutina* 💪🏽'
+  '3️⃣ Ya me inscribí, Quiero mi *rutina* 💪🏽',
+  '4️⃣ Hablar con alguien del staff'
   ],
   null,
   null,
-  [flowOpcion1, flowOpcion2, flowOpcion3]
+  [flowOpcion1, flowOpcion2, flowOpcion3, apagarBot, encenderBot]
  );
 
 

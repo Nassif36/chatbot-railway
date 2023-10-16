@@ -2,10 +2,170 @@
   key: {
     remoteJid: '5491138840555@s.whatsapp.net',
     fromMe: false,
-    id: '7B004E55645129971F8C6361AFD2B34E',
+    id: 'B959D1069A4A1148BE557F73820D20D8',
     participant: undefined
   },
-  messageTimestamp: 1695338276,
+  messageTimestamp: 1697309419,
+  pushName: 'yo',
+  broadcast: false,
+  message: Message {
+    conversation: 'Aa',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Aa',
+  from: '5491138840555'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_8cb2ad1f-fbc6-4e7b-b31b-2f8f89bdb129',
+  keyword: 'key_2e6d2f62-fe4d-4513-92c9-3e0907ad7027',
+  answer: ' Buenas ❗ En qué puedo ayudarte?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'e78e56d3b38c8c9950a75e3d64a703b3'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_9c27955e-e688-43a8-9da4-820fc6acfe3c',
+  keyword: 'ans_8cb2ad1f-fbc6-4e7b-b31b-2f8f89bdb129',
+  answer: '1️⃣ Necesito info de los *aranceles*, *servicios* y *medios de pago* 👨🏽‍💻 💳\n' +
+    '2️⃣ Horario de las *clases* 🕜 🏋🏽\n' +
+    '3️⃣ Ya me inscribí, Quiero mi *rutina* 💪🏽\n' +
+    '4️⃣ Hablar con el staff',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'b31f3bec40ac8f897b2172979b63a0ab'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491138840555@s.whatsapp.net',
+    fromMe: false,
+    id: '0A9640A1B1C1E59E28BADA8B695DCEB9',
+    participant: undefined
+  },
+  messageTimestamp: 1697309440,
+  pushName: 'yo',
+  broadcast: false,
+  message: Message {
+    conversation: '4',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '4',
+  from: '5491138840555'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491138840555@s.whatsapp.net',
+    fromMe: false,
+    id: '337F20AD6CA75D1E4229C0935B5D551E',
+    participant: undefined
+  },
+  messageTimestamp: 1697309451,
+  pushName: 'yo',
+  broadcast: false,
+  message: Message {
+    conversation: 'hajskf',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'hajskf',
+  from: '5491138840555'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_8cb2ad1f-fbc6-4e7b-b31b-2f8f89bdb129',
+  keyword: 'key_2e6d2f62-fe4d-4513-92c9-3e0907ad7027',
+  answer: ' Buenas ❗ En qué puedo ayudarte?',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'e78e56d3b38c8c9950a75e3d64a703b3'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_9c27955e-e688-43a8-9da4-820fc6acfe3c',
+  keyword: 'ans_8cb2ad1f-fbc6-4e7b-b31b-2f8f89bdb129',
+  answer: '1️⃣ Necesito info de los *aranceles*, *servicios* y *medios de pago* 👨🏽‍💻 💳\n' +
+    '2️⃣ Horario de las *clases* 🕜 🏋🏽\n' +
+    '3️⃣ Ya me inscribí, Quiero mi *rutina* 💪🏽\n' +
+    '4️⃣ Hablar con el staff',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object]
+    ],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'b31f3bec40ac8f897b2172979b63a0ab'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491138840555@s.whatsapp.net',
+    fromMe: false,
+    id: 'E5AE34E31DE37A2120BA41336B601FD6',
+    participant: undefined
+  },
+  messageTimestamp: 1697309460,
+  pushName: 'yo',
+  broadcast: false,
+  message: Message {
+    conversation: 'xd',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'xd',
+  from: '5491138840555'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5491138840555@s.whatsapp.net',
+    fromMe: false,
+    id: 'C84AA2D7C0092E777CFA9BF700D9CEB9',
+    participant: undefined
+  },
+  messageTimestamp: 1697309532,
   pushName: 'yo',
   broadcast: false,
   message: Message {
@@ -19,8 +179,8 @@
   from: '5491138840555'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_1fd6e718-5f4b-46ce-af81-be67692f9a8f',
-  keyword: 'key_4660fd71-2dfc-497c-88ff-8026b0d7416b',
+  ref: 'ans_8cb2ad1f-fbc6-4e7b-b31b-2f8f89bdb129',
+  keyword: 'key_2e6d2f62-fe4d-4513-92c9-3e0907ad7027',
   answer: ' Buenas ❗ En qué puedo ayudarte?',
   options: {
     media: null,
@@ -32,18 +192,19 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '355721b9faa95c47d092e32ba00ea7d6'
+  refSerialize: 'e78e56d3b38c8c9950a75e3d64a703b3'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_98a3be0c-c709-4285-85ae-143afe4b92e6',
-  keyword: 'ans_1fd6e718-5f4b-46ce-af81-be67692f9a8f',
+  ref: 'ans_9c27955e-e688-43a8-9da4-820fc6acfe3c',
+  keyword: 'ans_8cb2ad1f-fbc6-4e7b-b31b-2f8f89bdb129',
   answer: '1️⃣ Necesito info de los *aranceles*, *servicios* y *medios de pago* 👨🏽‍💻 💳\n' +
     '2️⃣ Horario de las *clases* 🕜 🏋🏽\n' +
-    '3️⃣ Ya me inscribí, Quiero mi *rutina* 💪🏽',
+    '3️⃣ Ya me inscribí, Quiero mi *rutina* 💪🏽\n' +
+    '4️⃣ Hablar con el staff',
   options: {
     media: null,
     buttons: [],
-    capture: false,
+    capture: true,
     child: null,
     delay: 0,
     nested: [
@@ -53,219 +214,53 @@
       [Object]
     ],
     keyword: {},
-    callback: false
+    callback: true
   },
-  refSerialize: '92ea350d5e2b57d1f81eee547eae29ad'
+  refSerialize: 'b31f3bec40ac8f897b2172979b63a0ab'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '5491138840555@s.whatsapp.net',
     fromMe: false,
-    id: '3866C88A22D01A1C170341A97981A820',
+    id: '4BCCED4A6D87653C83C59637B0462485',
     participant: undefined
   },
-  messageTimestamp: 1695338281,
+  messageTimestamp: 1697309536,
   pushName: 'yo',
   broadcast: false,
   message: Message {
-    conversation: '3',
+    conversation: '4',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: '3',
+  body: '4',
   from: '5491138840555'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_fa8e468e-659f-4748-8c88-09983d035d2d',
-  keyword: 'key_bc356bba-dfad-4b83-8b7e-3cb12102c6f7',
-  answer: '💪🏽 Buenísimo! Recordá que todas las rutinas incluyen videos y tenés el apoyo de los profesores de turno para ayudarte en cualquier duda! \n' +
-    '*Qué sexo sos?*\n' +
-    '1️⃣ 🏋️‍♀️ Femenino\n' +
-    '2️⃣ 🏋🏽 Masculino',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    nested: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '47089a9236535c1154c25db6e5da6d65'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '5491138840555@s.whatsapp.net',
     fromMe: false,
-    id: 'B86F6558E32E8EC1A1DCB84B02B8673A',
+    id: 'ACA6DE7D2F9C10F68D15F3574B843871',
     participant: undefined
   },
-  messageTimestamp: 1695338284,
+  messageTimestamp: 1697309541,
   pushName: 'yo',
   broadcast: false,
   message: Message {
-    conversation: '2',
+    conversation: 'usjfiwjfud',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: '2',
+  body: 'usjfiwjfud',
   from: '5491138840555'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_3a731e4e-9469-4d3e-a9de-4ea6080d57bb',
-  keyword: 'key_23d52be3-8418-4a74-9b5e-8a34e3eb18b7',
-  answer: '💪🏽 Buenísimo ❗ contame un poco de vos, en qué nivel de acondicionamiento físico crees que estás? 🏋🏽',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: 'f4abaf1b83ee7ae584c6fbee2c316017'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_8009a294-03f5-4ec2-87ca-dc6c525d1641',
-  keyword: 'ans_3a731e4e-9469-4d3e-a9de-4ea6080d57bb',
-  answer: '1️⃣ Soy iniciante, me gustaría una rutina para aprender y adaptar mi cuerpo 🏋🏽\n' +
-    '2️⃣ Ya vengo entrenando hace rato, me gustaría una rutina para seguir creciendo 💪🏽 🔝\n' +
-    '3️⃣ Hoy quiero entrenar un grupo muscular específico  💪🏽 🍑 🦵🏼\n' +
-    '4️⃣ Hoy tengo poco tiempo, qué me sugerís Tina? 🤔',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    nested: [
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object]
-    ],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: 'cecd4e37aa6d1937a23d55b4e80dd0fd'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491138840555@s.whatsapp.net',
-    fromMe: false,
-    id: 'A6F52C17C70183D2CD2DFD21EB61C6C6',
-    participant: undefined
-  },
-  messageTimestamp: 1695338325,
-  pushName: 'yo',
-  broadcast: false,
-  message: Message {
-    conversation: '3',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '3',
-  from: '5491138840555'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_d88c70e6-915b-404c-b54a-a90548a01647',
-  keyword: 'key_8db3a89c-74a7-428b-96ea-fc991810be45',
-  answer: '💪🏽 Okey let`s go ❗ Qué grupo muscular quisieras entrenar hoy?\n' +
-    '1️⃣ Gluteos\n' +
-    '2️⃣ Brazos\n' +
-    '3️⃣ Hombros\n' +
-    '4️⃣ Pecho\n' +
-    '5️⃣ Espalda\n' +
-    '6️⃣ Femorales y glúteos\n' +
-    '7️⃣ Cuádriceps y glúteos',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    nested: [
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object]
-    ],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '2cf5e20947ec878e2311904a5068ad0c'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491138840555@s.whatsapp.net',
-    fromMe: false,
-    id: '81556FCD683697F68746FEC6A0FF87D6',
-    participant: undefined
-  },
-  messageTimestamp: 1695338330,
-  pushName: 'yo',
-  broadcast: false,
-  message: Message {
-    conversation: '7',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '7',
-  from: '5491138840555'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_0fd3e32a-1fac-44eb-9180-6255cf7d3b2f',
-  keyword: 'key_b925c958-2794-4d6a-bb09-2a87d3289b22',
-  answer: 'Cuadriceps y glúteos: https://drive.google.com/file/d/1h7lXJtcHDaP90EAB7v7g3LSMErwJYqEp/view?usp=drive_link',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: 'fb0108c7234fb7b3d53c55768e59b27a'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491138840555@s.whatsapp.net',
-    fromMe: false,
-    id: 'E087E35DD24362F52DE20AF6E622D83D',
-    participant: undefined
-  },
-  messageTimestamp: 1695338342,
-  pushName: 'yo',
-  broadcast: false,
-  message: Message {
-    conversation: 'Hola',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Hola',
-  from: '5491138840555'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_1fd6e718-5f4b-46ce-af81-be67692f9a8f',
-  keyword: 'key_4660fd71-2dfc-497c-88ff-8026b0d7416b',
+  ref: 'ans_8cb2ad1f-fbc6-4e7b-b31b-2f8f89bdb129',
+  keyword: 'key_2e6d2f62-fe4d-4513-92c9-3e0907ad7027',
   answer: ' Buenas ❗ En qué puedo ayudarte?',
   options: {
     media: null,
@@ -277,18 +272,19 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '355721b9faa95c47d092e32ba00ea7d6'
+  refSerialize: 'e78e56d3b38c8c9950a75e3d64a703b3'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_98a3be0c-c709-4285-85ae-143afe4b92e6',
-  keyword: 'ans_1fd6e718-5f4b-46ce-af81-be67692f9a8f',
+  ref: 'ans_9c27955e-e688-43a8-9da4-820fc6acfe3c',
+  keyword: 'ans_8cb2ad1f-fbc6-4e7b-b31b-2f8f89bdb129',
   answer: '1️⃣ Necesito info de los *aranceles*, *servicios* y *medios de pago* 👨🏽‍💻 💳\n' +
     '2️⃣ Horario de las *clases* 🕜 🏋🏽\n' +
-    '3️⃣ Ya me inscribí, Quiero mi *rutina* 💪🏽',
+    '3️⃣ Ya me inscribí, Quiero mi *rutina* 💪🏽\n' +
+    '4️⃣ Hablar con el staff',
   options: {
     media: null,
     buttons: [],
-    capture: false,
+    capture: true,
     child: null,
     delay: 0,
     nested: [
@@ -298,43 +294,7 @@
       [Object]
     ],
     keyword: {},
-    callback: false
+    callback: true
   },
-  refSerialize: '92ea350d5e2b57d1f81eee547eae29ad'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '5491138840555@s.whatsapp.net',
-    fromMe: false,
-    id: '01E403E3E26938E27B7E5EE37C50DFD6',
-    participant: undefined
-  },
-  messageTimestamp: 1695338346,
-  pushName: 'yo',
-  broadcast: false,
-  message: Message {
-    conversation: '2',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '2',
-  from: '5491138840555'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_fa423f67-49b4-4ea1-99de-a93104363092',
-  keyword: 'key_f04a6d2c-9a0e-4165-99f8-f01cdfb9293e',
-  answer: '🕛 *Horarios*',
-  options: {
-    media: 'https://firebasestorage.googleapis.com/v0/b/mecacdn-8b7d3.appspot.com/o/meca-horarios.PNG?alt=media&token=cfecd238-c689-412b-818e-fec2cc2ecd82',
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: 'c974c26421fa61f8ae56f2fe31b1cd91'
+  refSerialize: 'b31f3bec40ac8f897b2172979b63a0ab'
 }
